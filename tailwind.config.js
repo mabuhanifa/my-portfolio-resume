@@ -2,14 +2,19 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      fontFamily : { 
-        inter: ['Inter', 'sans-serif'],
-        andada: ['Andada Pro','serif'],
-        cormorant:['Cormorant', 'serif'],
-        encode: ['Encode Sans', 'sans-serif'],
-        
-
-      }
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        andada: ["Andada Pro", "serif"],
+        cormorant: ["Cormorant", "serif"],
+        encode: ["Encode Sans", "sans-serif"],
+        hahmlet: ["Hahmlet", "serif"],
+        lato: ["Lato", "sans-serif"],
+        nunito: ["Nunito", "sans-serif"],
+        playfair: ["Playfair Display", "serif"],
+        poppins: ["Poppins", "sans-serif"],
+        robotoslab: ["Roboto Slab", "serif"],
+        titillium: ["Titillium Web", "sans-serif"],
+      },
     },
   },
   daisyui: {
@@ -17,9 +22,7 @@ module.exports = {
       {
         mytheme: {
           primary: "#0d6efd",
-          blur:"#1877f2",
-          danr:"#f0284a",
-          neur:"#2abba7",
+          paste: "#2abba7",
           secondary: "#6c757d",
           success: "#198754",
           danger: "#dc3545",
@@ -33,13 +36,12 @@ module.exports = {
           border: "#dee2e6",
           accent: "#37cdbe",
           neutral: "#3d4451",
-          error : "#dc3545",
+          error: "#dc3545",
           "base-100": "#ffffff",
         },
       },
     ],
   },
-  
 
   plugins: [require("daisyui")],
 };
