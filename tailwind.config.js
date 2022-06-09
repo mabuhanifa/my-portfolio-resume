@@ -2,9 +2,14 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      // fontFamily : { 
-      //   inter: ['Inter', 'sans-serif'],
-      // }
+      fontFamily : { 
+        inter: ['Inter', 'sans-serif'],
+        andada: ['Andada Pro','serif'],
+        cormorant:['Cormorant', 'serif'],
+        encode: ['Encode Sans', 'sans-serif'],
+        
+
+      }
     },
   },
   daisyui: {
