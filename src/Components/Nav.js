@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import { ImCross } from "react-icons/im";
-const Navbar = () => {
+const Nav = () => {
   let [open,setOpen]=useState(false);
     return (
       <div className='shadow-md top-0 left-0 text-gray-100'>
@@ -32,4 +32,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Nav;

@@ -1,4 +1,3 @@
-import React from 'react';
 import { RiContactsFill } from "react-icons/ri";
 
 const Info = () => {
@@ -18,7 +17,7 @@ const Info = () => {
                     new technologies.
                 </p>
                 
-                <a className='btn btn-info my-4' href="">Projects</a>
+                <a className='rounded-none btn my-4 bg-[#555555]' href="/">Projects</a>
 
             </div>
             

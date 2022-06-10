@@ -14,6 +14,7 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
         robotoslab: ["Roboto Slab", "serif"],
         titillium: ["Titillium Web", "sans-serif"],
+        nanum: ["Nanum Gothic Coding", "monospace"],
       },
     },
   },
