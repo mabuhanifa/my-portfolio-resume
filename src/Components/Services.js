@@ -9,11 +9,11 @@ import { MdWeb } from "react-icons/md";
 const Services = () => {
     return (
         <>
-        <h1 className='text-3xl'>Services</h1>
-        <div className='flex justify-center text-white mx-20 text-center p-20'>
+        <h1 className='text-3xl font-bold text-center text-gray-300 mt-40 mb-10' >Services</h1>
+        <div className='flex justify-center text-gray-300 mx-20 text-center p-20 '>
             
-            <div className='w-96  mx-auto shadow-xl rounded p-2'>
-            {/* <img className='w-80 h-80 object-cover rounded' src={ html} alt="" /> */}
+            <div className='w-96  mx-auto shadow-xl rounded p-2 bg-[#1e293b]'>
+                
             <p className="text-[100px] w-96 flex items-center justify-center p-5"><span><MdWeb/></span> </p>
             <div className='p-3'>
             <h2 className='text-2xl'>Static Website.</h2>
@@ -29,7 +29,7 @@ const Services = () => {
             
 
             </div>
-            <div className='w-96 mx-auto shadow-xl rounded p-2'>
+            <div className='w-96 mx-auto shadow-xl rounded p-2 bg-[#1e293b]'>
             {/* <img className='w-80 h-80 object-cover rounded' src={react} alt="" /> */}
             <div className="text-[100px] w-96 flex items-center justify-center p-5"><IoIosApps/> </div>
             <div className='p-3'>
@@ -46,7 +46,7 @@ const Services = () => {
             
 
             </div>
-            <div className='w-96 mx-auto shadow-xl rounded p-2'>
+            <div className='w-96 mx-auto shadow-xl rounded p-2 bg-[#1e293b]'>
             {/* <img className='w-80 h-80 object-cover rounded' src={mern} alt="" /> */}
             <div className="text-[100px] w-96 flex items-center justify-center p-5">< FaServer/> </div>
             <div className='p-3'>

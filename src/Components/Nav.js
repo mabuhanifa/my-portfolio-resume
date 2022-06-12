@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import { ImCross } from "react-icons/im";
+import { Link } from "react-router-dom";
 const Nav = () => {
   let [open,setOpen]=useState(false);
     return (
@@ -15,13 +16,13 @@ const Nav = () => {
           <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-500px]'}`}>
 
       <li className='md:ml-8 text-xl md:my-0 my-7'>
-      <a href='/' className='text-gray-100 hover:text-gray-400 duration-500'>Home</a>
+      <Link to='/' className='text-gray-100 hover:text-gray-400 duration-500'>Home</Link>
       </li>
       <li className='md:ml-8 text-xl md:my-0 my-7'>
-      <a href='/' className='text-gray-100 hover:text-gray-400 duration-500'>About</a>
+      <Link to='/' className='text-gray-100 hover:text-gray-400 duration-500'>About</Link>
       </li>
       <li className='md:ml-8 text-xl md:my-0 my-7'>
-      <a href='/' className='text-gray-100 hover:text-gray-400 duration-500'>Contact</a>
+      <Link to='/' className='text-gray-100 hover:text-gray-400 duration-500'>Contact</Link>
       </li>
   
       </ul>

@@ -4,7 +4,7 @@ import { useForm, ValidationError } from "@formspree/react";
 function ContactForm() {
   const [state, handleSubmit] = useForm("xeqndzov");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <p className="text-gray-300">Thanks for joining!</p>;
   }
   return (
     <form className="" onSubmit={handleSubmit}>
@@ -14,7 +14,7 @@ function ContactForm() {
         type="name"
         name="name"
         placeholder="Your Name"
-        class="input block my-2 input-bordered input-secondary w-full max-w-xs"
+        className="input block my-2 input-bordered input-secondary w-full max-w-md"
       />
       <ValidationError prefix="Text" field="text" errors={state.errors} />
       <label className="text-gray-300" htmlFor="email">Your Email : </label>
@@ -23,7 +23,7 @@ function ContactForm() {
         type="email"
         name="email"
         placeholder="Your Email"
-        class="input block my-2 input-bordered input-secondary w-full max-w-xs"
+        className="input block my-2 input-bordered input-secondary w-full max-w-md"
       />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
       <label className="text-gray-300" htmlFor="message">Your Message : </label>
@@ -31,11 +31,11 @@ function ContactForm() {
         placeholder="Your Message"
         id="message"
         name="message"
-        className="h-20 my-2 input input-group-lg block input-bordered input-secondary w-full max-w-xs"
+        className="h-36 my-2 input input-group-lg block input-bordered input-secondary w-full max-w-md"
       />
       <ValidationError prefix="Message" field="message" errors={state.errors} />
       <button
-        className="btn btn-primary w-full max-w-xs block my-4"
+        className="btn btn-primary w-full max-w-md block my-4"
         type="submit"
         disabled={state.submitting}
       >

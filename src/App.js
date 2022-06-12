@@ -1,20 +1,27 @@
-import About from "./Components/About";
-import Contact from "./Components/Contact";
+import { Route, Routes } from "react-router-dom";
+import Biospc from "./Components/All Projects/Biospc";
+import Gadgetarena from "./Components/All Projects/Gadgetarena";
+import Snapmaster from "./Components/All Projects/Snapmaster";
 import Footer from "./Components/Footer";
-import Info from "./Components/Info";
+import Home from "./Components/Home";
 import Nav from "./Components/Nav";
 import Projects from "./Components/Projects";
-import Services from "./Components/Services";
+import SingleProject from "./Components/SingleProject";
 
 function App() {
   return (
     <div >
       <Nav/>
-      <About/>
-      <Info/>
-      <Services/>
-      <Projects/>
-      <Contact/>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/projects" element={<Projects>
+        <Route path="/projects/biospc" element={<Biospc/>} />
+        <Route path="/projects/gadgetarena" element={<Gadgetarena/>} />
+        <Route path="/projects/snapmaster" element={<Snapmaster/>} />
+        </Projects>} />
+        <Route path="/singleproject/:name" element={<SingleProject/> } />
+      </Routes>
+      
       <Footer/>
     </div>
   );
