@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
-import Biospc from "./Components/All Projects/Biospc";
-import Gadgetarena from "./Components/All Projects/Gadgetarena";
-import Snapmaster from "./Components/All Projects/Snapmaster";
+import About from "./Components/About";
+import Blogs from "./Components/Blogs";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import Nav from "./Components/Nav";
@@ -14,11 +13,9 @@ function App() {
       <Nav/>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/projects" element={<Projects>
-        <Route path="/projects/biospc" element={<Biospc/>} />
-        <Route path="/projects/gadgetarena" element={<Gadgetarena/>} />
-        <Route path="/projects/snapmaster" element={<Snapmaster/>} />
-        </Projects>} />
+        <Route path="/blogs" element={<Blogs/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/projects" element={<Projects/>} />
         <Route path="/singleproject/:name" element={<SingleProject/> } />
       </Routes>
       

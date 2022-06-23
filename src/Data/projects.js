@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     name: "Biospc",
-    info: "A website for the Biospc, a non-profit organization that provides education and support to the community through the use of technology.",
+    info: "Biospc is a full-stack(MERN) web Application. It allows users to buy and view the latest pc part from the data base.",
     info_bullets: [
       "BiosPC is a Full Stack (MERN) web Application.",
       "MongoDB has been used as a Database alongside Node and Express JS.",
@@ -34,7 +34,7 @@ const projects = [
   {
     id: 2,
     name: "Gadgetarena",
-    info: "A website for the Biospc, a non-profit organization that provides education and support to the community through the use of technology.",
+    info: "Gadgetarena is a full-stack (MERN) website that allows authorized users managing inventory of their gadgets.",
     info_bullets: [
       "Gadget Arena is a Full Stack (MERN) web Application.",
       "MongoDB has been used as a Database alongside Node and Express JS.",
@@ -66,7 +66,7 @@ const projects = [
   {
     id: 3,
     name: "Snapmaster",
-    info: "A website for the Biospc, a non-profit organization that provides education and support to the community through the use of technology.",
+    info: "SnapMaster is a single photography service provider thats allows users to rent photographer for a occasion .",
     info_bullets: [
       "SnapMaster is a React Single Page Application.",
       "This website is built with React and React Router.",

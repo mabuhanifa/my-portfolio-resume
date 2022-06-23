@@ -1,24 +1,24 @@
 import {
-    SiCss3,
-    SiExpress,
-    SiFirebase,
-    SiGit,
-    SiHtml5,
-    SiJavascript,
-    SiMongodb,
-    SiNextdotjs,
-    SiNodedotjs,
-    SiReact,
-    SiStripe,
-    SiTypescript
+  SiCss3,
+  SiExpress,
+  SiFirebase,
+  SiGit,
+  SiHtml5,
+  SiJavascript,
+  SiMongodb,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiReact,
+  SiStripe,
+  SiTypescript
 } from "react-icons/si";
 
 const Skills = () => {
   return (
     <div>
         <h2 className="text-center text-4xl font-bold text-gray-300 my-32">Skills </h2>
-      <div className="w-full mt-20">
-        <div className="w-full grid grid-flow-col gap-5 text-[100px] place-content-center text-gray-400">
+      <div className=" mt-20">
+        <div className="w-96 mx-auto sm:w-full grid grid-cols-3 sm:grid-cols-4 text-[100px] sm:place-items-center gap-20 text-gray-400">
           <span className=" hover:text-orange-600">
             <SiHtml5 />
           </span>
