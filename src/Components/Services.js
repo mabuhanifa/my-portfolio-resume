@@ -10,7 +10,7 @@ const Services = () => {
     return (
         <>
         <h1 className='text-3xl font-bold text-center text-gray-300 mt-40 mb-10' >Services</h1>
-        <div className='sm:flex justify-center text-gray-300 sm:mx-20 text-center p-20 '>
+        <div className='grid grid-col-1 sm:grid-cols-3 justify-center text-gray-300 sm:mx-20 text-center p-20 '>
             
             <div className='w-96  mx-auto shadow-xl rounded p-2 bg-[#1b232e] my-5 py-5'>
                 
