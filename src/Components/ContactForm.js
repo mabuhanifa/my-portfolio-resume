@@ -8,7 +8,9 @@ function ContactForm() {
   }
   return (
     <form className="" onSubmit={handleSubmit}>
-      <label className="text-gray-300" htmlFor="name">Your Name : </label>
+      <label className="text-gray-300" htmlFor="name">
+        Your Name :{" "}
+      </label>
       <input
         id="name"
         type="name"
@@ -17,7 +19,9 @@ function ContactForm() {
         className="input block my-2 input-bordered input-secondary w-full max-w-md"
       />
       <ValidationError prefix="Text" field="text" errors={state.errors} />
-      <label className="text-gray-300" htmlFor="email">Your Email : </label>
+      <label className="text-gray-300" htmlFor="email">
+        Your Email :{" "}
+      </label>
       <input
         id="email"
         type="email"
@@ -26,7 +30,9 @@ function ContactForm() {
         className="input block my-2 input-bordered input-secondary w-full max-w-md"
       />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
-      <label className="text-gray-300" htmlFor="message">Your Message : </label>
+      <label className="text-gray-300" htmlFor="message">
+        Your Message :{" "}
+      </label>
       <textarea
         placeholder="Your Message"
         id="message"

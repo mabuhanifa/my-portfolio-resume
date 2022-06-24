@@ -16,7 +16,9 @@ import {
 const Skills = () => {
   return (
     <div>
-        <h2 className="text-center text-4xl font-bold text-gray-300 my-32">Skills </h2>
+      <h2 className="text-center text-4xl font-bold text-gray-300 my-32">
+        Skills{" "}
+      </h2>
       <div className="mt-20">
         <div className="w-96 mx-auto sm:w-full grid grid-cols-3 sm:grid-cols-4 text-6xl sm:text-[100px] place-items-center gap-10 sm:gap-20 text-gray-400">
           <span className=" hover:text-orange-600">
@@ -39,7 +41,7 @@ const Skills = () => {
             <SiNextdotjs />
           </span>
           <span className=" hover:text-green-600">
-            <SiNodedotjs/>
+            <SiNodedotjs />
           </span>
           <span className=" hover:text-green-500">
             <SiExpress />

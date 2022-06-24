@@ -8,7 +8,7 @@ const projects = [
       "MongoDB has been used as a Database alongside Node and Express JS.",
       "User Authentication has been implemented using Firebase.",
       "React, React Router, React Hook Form, Tailwind CSS, DaisyUI have been used.",
-      "This project is built with react-firebase hooks."
+      "This project is built with react-firebase hooks.",
     ],
     tech: [
       { name: "React", bg: "#5ed3f333", text: "#5ED3F3" },

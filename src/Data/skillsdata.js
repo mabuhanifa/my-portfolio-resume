@@ -1,11 +1,15 @@
 import {
   SiCloudflare,
-  SiCss3, SiExpress,
+  SiCss3,
+  SiExpress,
   SiFirebase,
   SiGit,
   SiHtml5,
-  SiJavascript, SiMongodb,
-  SiNextdotjs, SiNodedotjs, SiReact,
+  SiJavascript,
+  SiMongodb,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiReact,
   SiStripe,
   SiTypescript
 } from "react-icons/si";
